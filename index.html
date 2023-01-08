@@ -1,0 +1,94 @@
+<html>
+ <head>
+ <meta name="baidu-site-verification" content="code-uIZ6X7HOYc">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>蓝天客户端-BlueSky</title>
+  <meta name="description" content="MineBox官方网站">
+  <meta name="keywords" content="我的世界,MC,客户端,蓝天客户端,BlueSky,MC客户端">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <body>
+  <div class="nutscraftBox Box1">
+   <div class="wow Box1-title">
+    <p class="wow Box1-title1" style="color: #00b7ff;">蓝天客户端BlueSky</p>
+    <p class="wow Box1-title2">欢迎玩家的加入</p>
+    <p style="color: #ffaa00;">最新版本：v1.1_beta_1</p>
+    <p>注：该客户端使用<em style="color: #ff000c;">由奶喵酱制作的YuChen底包</em>。</p> <a href="http://drive.paimon.cloud/s/0d5uB" scrollto="anchor1" class="wow scrollOnClick Box1-title-Buttom" easing="smooth">下载</a>
+   </div>
+  </div>
+  <div class="nutscraftBox Box2">
+   <div id="anchor1"></div>
+   <div class="Box2-nutscraft">
+    <ul>
+     <li class="wow OutRight"><img src="image/icon.png" alt="icon"> <h2>蓝天客户端</h2> <p>本客户端有透视、夜视、生物碰撞箱、彩色经验条、透明UI、精美材质等功能，欢迎各位体验！</p></li>
+    </ul> <a href="#anchor2" scrollto="anchor2" class="scrollOnClick Box2-More wow" easing="smooth">Next...</a>
+   </div>
+  </div>
+  <div class="nutscraftBox Box3">
+   <div id="anchor2"></div>
+   <div class="Box3-talk OutBottom wow">
+    <div class="Box3-talk-text">
+     <h1>关于我们</h1>
+     <p>客户端起步于2022年12月30日，由<a href="http://csjdyr001.github.io/caofangkuai-studio" style="color: #00ff41;">草方块工作室</a>基于以前的<p style="color: #af5000;">穿山甲客户端</p>进一步开发，目前已走过<span id="time"></span>。</p>
+     <h2 class="Box3-talk-text-end">不忘初心，方得始终</h2>
+    </div>
+   </div> <a href="#anchor3" scrollto="anchor3" class="scrollOnClick Box3-More wow" easing="smooth">Next...</a>
+  </div>
+  <div class="nutscraftBox Box4">
+   <div id="anchor3"></div>
+   <p class="Box4-Title OutBottom wow">客户端预览</p>
+   <ul id="nutscraft">
+    <li><img src="" alt="player1" class="OutTop wow"></li>
+    <li><img src="" alt="player2" class="OutBottom wow"></li>
+    <li><img src="" alt="player3" class="OutLeft wow"></li>
+    <li><img src="" alt="player4" class="OutRight wow"></li>
+    <li><img src="" alt="player5" class="OutTop wow"></li>
+    <li><img src="" alt="player6" class="OutBottom wow"></li>
+   </ul> <a href="#anchor4" scrollto="anchor4" class="scrollOnClick Box4-More wow" easing="smooth">Next...</a>
+  </div>
+  <div class="nutscraftBox Box5">
+   <div id="anchor4"></div>
+   <div class="Box5-Join OutBottom wow">
+    <div class="Box5-Join-talk">
+     <h1>加入我们？</h1>
+     <p>加入我们一起完善客户端！</p>
+     <ul>
+      <li>敬请期待</li>
+     </ul>
+    </div>
+   </div>
+   <div class="footer">
+    <p>Copyright©2022. <a href="http://csjdyr001.github.io/caofangkuai-studio" style="color: #00ff41;">草方块工作室</a> All Rights Reserved</p>
+   </div>
+  </div>
+  <script>
+  function time() {
+    window.setTimeout("time()", 1000);
+    var seconds = 1000
+    var minutes = seconds * 60
+    var hours = minutes * 60
+    var days = hours * 24
+    var years = days * 365
+    var today = new Date()
+    var todayYear = today.getFullYear()
+    var todayMonth = today.getMonth() + 1
+    var todayDate = today.getDate()
+    var todayHour = today.getHours()
+    var todayMinute = today.getMinutes()
+    var todaySecond = today.getSeconds()
+    var t1 = Date.UTC(2022, 12, 30, 00, 00, 00)
+    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
+    var diff = t2 - t1
+    var diffYears = Math.floor(diff / years)
+    var diffDays = Math.floor((diff / days) - diffYears * 365)
+    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours)
+    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
+    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
+        minutes) / seconds)
+    document.getElementById("time").innerHTML = diffYears + "年" + diffDays + "天" + diffHours + "时" + diffMinutes + "分钟" + diffSeconds + "秒了"
+    }
+    time()
+  </script>
+ </body>
+</html>
