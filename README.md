@@ -1,2 +1,2 @@
 # BlueSkyClient.github.io
-蓝天客户端BlueSky官方网站
+咸鱼启动器官方网站
