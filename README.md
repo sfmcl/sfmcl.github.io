@@ -1,2 +1,2 @@
-# BlueSkyClient.github.io
-咸鱼启动器官方网站
+# sfmcl.github.io
+咸鱼MC启动器官方网站
